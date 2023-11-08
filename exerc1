@@ -1,0 +1,15 @@
+Lista de exerecicios
+1)
+#include <iostream>
+using namespace std;
+ int dobro(int x){
+	return 2*x;
+}
+int main(){
+	int x;
+	cin>>x;
+	int y= dobro(x);
+	cout<< y;
+    return 0;       
+}
+
