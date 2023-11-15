@@ -1,0 +1,19 @@
+#include <iostream>
+#include<cmath>
+using namespace std;
+ int quadradopft(int x){
+	return sqrt(x);
+}
+int main(){
+	int x;
+	cin>>x;
+	int y=quadradopft(x);
+	cout<< y;{
+		if(y*y==x){
+			cout<<" Quadrado perfeito ";
+	}else{
+		cout<<" Nao e um quadrado perfeito ";
+	}
+	}
+    return 0;       
+}
