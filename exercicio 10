@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+ int sub(int x,int y){
+	return x-y ;
+}
+int main(){
+	int x;
+	int y;
+	cin>>x;
+	cin>>y;
+	int z=sub(x,y);
+		if(z>0){
+			cout<<x;
+			cout<<" e maior";
+		}else{
+   	   	   cout<< y;
+	       cout<< " e maior "; 
+			}
+			
+    return 0;       
+}
