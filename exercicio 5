@@ -1,0 +1,15 @@
+#include <iostream>
+#include<cmath>
+using namespace std;
+ int cubo(int x){
+	return pow(x,3) ;
+}
+int main(){
+	int x;
+	int V;
+	cin>>x;
+	int z=cubo(x);
+	V=1.33*3.14*z;
+	cout<<V;
+    return 0;       
+}
